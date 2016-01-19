@@ -3,15 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>SchemeUserState</key>
-	<dict>
-		<key>OpengGLPrimer.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>0</integer>
-		</dict>
-	</dict>
+	<dict/>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>328AF1E81C4CEE5D004F5659</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>32BC75C21C468E500031EF30</key>
 		<dict>
 			<key>primary</key>

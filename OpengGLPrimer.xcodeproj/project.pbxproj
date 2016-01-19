@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		32BC75C71C468E500031EF30 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32BC75C61C468E500031EF30 /* main.cpp */; };
-		32E07B281C4690B600A89610 /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B271C4690B600A89610 /* libglfw3.a */; };
-		32E07B2A1C4690BD00A89610 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B291C4690BD00A89610 /* libGLEW.a */; };
-		32E07B2C1C4690CC00A89610 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B2B1C4690CC00A89610 /* CoreFoundation.framework */; };
-		32E07B2E1C4690FE00A89610 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B2D1C4690FE00A89610 /* GLUT.framework */; };
-		32E07B301C46910800A89610 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B2F1C46910800A89610 /* OpenGL.framework */; };
-		32E07B321C46910E00A89610 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B311C46910E00A89610 /* Cocoa.framework */; };
-		32E07B341C46911800A89610 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B331C46911800A89610 /* IOKit.framework */; };
-		32E07B361C46912100A89610 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B351C46912100A89610 /* CoreVideo.framework */; };
-		32E07B381C46929000A89610 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B371C46929000A89610 /* Carbon.framework */; };
+		328AF1EC1C4CEE5D004F5659 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 328AF1EB1C4CEE5D004F5659 /* main.cpp */; };
+		328AF1F01C4CFC5C004F5659 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B371C46929000A89610 /* Carbon.framework */; };
+		328AF1F11C4CFC5C004F5659 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B351C46912100A89610 /* CoreVideo.framework */; };
+		328AF1F21C4CFC5C004F5659 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B331C46911800A89610 /* IOKit.framework */; };
+		328AF1F31C4CFC5C004F5659 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B311C46910E00A89610 /* Cocoa.framework */; };
+		328AF1F41C4CFC5C004F5659 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B2F1C46910800A89610 /* OpenGL.framework */; };
+		328AF1F51C4CFC5C004F5659 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B2D1C4690FE00A89610 /* GLUT.framework */; };
+		328AF1F61C4CFC5C004F5659 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B2B1C4690CC00A89610 /* CoreFoundation.framework */; };
+		328AF1F71C4CFC5C004F5659 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B291C4690BD00A89610 /* libGLEW.a */; };
+		328AF1F81C4CFC5C004F5659 /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B271C4690B600A89610 /* libglfw3.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		32BC75C11C468E500031EF30 /* CopyFiles */ = {
+		328AF1E71C4CEE5D004F5659 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -32,8 +32,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		32BC75C31C468E500031EF30 /* OpengGLPrimer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OpengGLPrimer; sourceTree = BUILT_PRODUCTS_DIR; };
-		32BC75C61C468E500031EF30 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		328AF1E91C4CEE5D004F5659 /* 01-triangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01-triangle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		328AF1EB1C4CEE5D004F5659 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		32E07B271C4690B600A89610 /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = ../../../../usr/local/lib/libglfw3.a; sourceTree = "<group>"; };
 		32E07B291C4690BD00A89610 /* libGLEW.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGLEW.a; path = ../../../../usr/local/lib/libGLEW.a; sourceTree = "<group>"; };
 		32E07B2B1C4690CC00A89610 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
@@ -46,25 +46,33 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		32BC75C01C468E500031EF30 /* Frameworks */ = {
+		328AF1E61C4CEE5D004F5659 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32E07B381C46929000A89610 /* Carbon.framework in Frameworks */,
-				32E07B361C46912100A89610 /* CoreVideo.framework in Frameworks */,
-				32E07B341C46911800A89610 /* IOKit.framework in Frameworks */,
-				32E07B321C46910E00A89610 /* Cocoa.framework in Frameworks */,
-				32E07B301C46910800A89610 /* OpenGL.framework in Frameworks */,
-				32E07B2E1C4690FE00A89610 /* GLUT.framework in Frameworks */,
-				32E07B2C1C4690CC00A89610 /* CoreFoundation.framework in Frameworks */,
-				32E07B281C4690B600A89610 /* libglfw3.a in Frameworks */,
-				32E07B2A1C4690BD00A89610 /* libGLEW.a in Frameworks */,
+				328AF1F01C4CFC5C004F5659 /* Carbon.framework in Frameworks */,
+				328AF1F11C4CFC5C004F5659 /* CoreVideo.framework in Frameworks */,
+				328AF1F21C4CFC5C004F5659 /* IOKit.framework in Frameworks */,
+				328AF1F31C4CFC5C004F5659 /* Cocoa.framework in Frameworks */,
+				328AF1F41C4CFC5C004F5659 /* OpenGL.framework in Frameworks */,
+				328AF1F51C4CFC5C004F5659 /* GLUT.framework in Frameworks */,
+				328AF1F61C4CFC5C004F5659 /* CoreFoundation.framework in Frameworks */,
+				328AF1F71C4CFC5C004F5659 /* libGLEW.a in Frameworks */,
+				328AF1F81C4CFC5C004F5659 /* libglfw3.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		328AF1EA1C4CEE5D004F5659 /* 01-triangle */ = {
+			isa = PBXGroup;
+			children = (
+				328AF1EB1C4CEE5D004F5659 /* main.cpp */,
+			);
+			path = "01-triangle";
+			sourceTree = "<group>";
+		};
 		32BC75BA1C468E500031EF30 = {
 			isa = PBXGroup;
 			children = (
@@ -77,7 +85,7 @@
 				32E07B2B1C4690CC00A89610 /* CoreFoundation.framework */,
 				32E07B291C4690BD00A89610 /* libGLEW.a */,
 				32E07B271C4690B600A89610 /* libglfw3.a */,
-				32BC75C51C468E500031EF30 /* OpengGLPrimer */,
+				328AF1EA1C4CEE5D004F5659 /* 01-triangle */,
 				32BC75C41C468E500031EF30 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,37 +93,29 @@
 		32BC75C41C468E500031EF30 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				32BC75C31C468E500031EF30 /* OpengGLPrimer */,
+				328AF1E91C4CEE5D004F5659 /* 01-triangle */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		32BC75C51C468E500031EF30 /* OpengGLPrimer */ = {
-			isa = PBXGroup;
-			children = (
-				32BC75C61C468E500031EF30 /* main.cpp */,
-			);
-			path = OpengGLPrimer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		32BC75C21C468E500031EF30 /* OpengGLPrimer */ = {
+		328AF1E81C4CEE5D004F5659 /* 01-triangle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 32BC75CA1C468E500031EF30 /* Build configuration list for PBXNativeTarget "OpengGLPrimer" */;
+			buildConfigurationList = 328AF1EF1C4CEE5D004F5659 /* Build configuration list for PBXNativeTarget "01-triangle" */;
 			buildPhases = (
-				32BC75BF1C468E500031EF30 /* Sources */,
-				32BC75C01C468E500031EF30 /* Frameworks */,
-				32BC75C11C468E500031EF30 /* CopyFiles */,
+				328AF1E51C4CEE5D004F5659 /* Sources */,
+				328AF1E61C4CEE5D004F5659 /* Frameworks */,
+				328AF1E71C4CEE5D004F5659 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = OpengGLPrimer;
-			productName = OpengGLPrimer;
-			productReference = 32BC75C31C468E500031EF30 /* OpengGLPrimer */;
+			name = "01-triangle";
+			productName = "01-triangle";
+			productReference = 328AF1E91C4CEE5D004F5659 /* 01-triangle */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -127,8 +127,8 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = xujh;
 				TargetAttributes = {
-					32BC75C21C468E500031EF30 = {
-						CreatedOnToolsVersion = 7.2;
+					328AF1E81C4CEE5D004F5659 = {
+						CreatedOnToolsVersion = 7.0;
 					};
 				};
 			};
@@ -144,23 +144,37 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				32BC75C21C468E500031EF30 /* OpengGLPrimer */,
+				328AF1E81C4CEE5D004F5659 /* 01-triangle */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		32BC75BF1C468E500031EF30 /* Sources */ = {
+		328AF1E51C4CEE5D004F5659 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32BC75C71C468E500031EF30 /* main.cpp in Sources */,
+				328AF1EC1C4CEE5D004F5659 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		328AF1ED1C4CEE5D004F5659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		328AF1EE1C4CEE5D004F5659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		32BC75C81C468E500031EF30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -197,6 +211,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/include/GL/**",
+					"/usr/local/include/GLFW/**",
+					"/usr/local/include/glm/**",
+				);
+				LIBRARY_SEARCH_PATHS = "/usr/local/lib/**";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -234,55 +254,35 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/include/GL/**",
+					"/usr/local/include/GLFW/**",
+					"/usr/local/include/glm/**",
+				);
+				LIBRARY_SEARCH_PATHS = "/usr/local/lib/**";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
 			name = Release;
 		};
-		32BC75CB1C468E500031EF30 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				HEADER_SEARCH_PATHS = (
-					"/usr/local/include/GL/**",
-					"/usr/local/include/GLFW/**",
-					"/usr/local/include/glm/**",
-				);
-				LIBRARY_SEARCH_PATHS = "/usr/local/lib/**";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		32BC75CC1C468E500031EF30 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				HEADER_SEARCH_PATHS = (
-					"/usr/local/include/GL/**",
-					"/usr/local/include/GLFW/**",
-					"/usr/local/include/glm/**",
-				);
-				LIBRARY_SEARCH_PATHS = "/usr/local/lib/**";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		328AF1EF1C4CEE5D004F5659 /* Build configuration list for PBXNativeTarget "01-triangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				328AF1ED1C4CEE5D004F5659 /* Debug */,
+				328AF1EE1C4CEE5D004F5659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		32BC75BE1C468E500031EF30 /* Build configuration list for PBXProject "OpengGLPrimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				32BC75C81C468E500031EF30 /* Debug */,
 				32BC75C91C468E500031EF30 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		32BC75CA1C468E500031EF30 /* Build configuration list for PBXNativeTarget "OpengGLPrimer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				32BC75CB1C468E500031EF30 /* Debug */,
-				32BC75CC1C468E500031EF30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
