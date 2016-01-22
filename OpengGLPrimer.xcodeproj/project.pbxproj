@@ -17,10 +17,29 @@
 		328AF1F61C4CFC5C004F5659 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B2B1C4690CC00A89610 /* CoreFoundation.framework */; };
 		328AF1F71C4CFC5C004F5659 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B291C4690BD00A89610 /* libGLEW.a */; };
 		328AF1F81C4CFC5C004F5659 /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B271C4690B600A89610 /* libglfw3.a */; };
+		32E017C91C4E5F19005EE4DE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32E017C81C4E5F19005EE4DE /* main.cpp */; };
+		32E017CD1C4E6052005EE4DE /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B371C46929000A89610 /* Carbon.framework */; };
+		32E017CE1C4E6052005EE4DE /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B351C46912100A89610 /* CoreVideo.framework */; };
+		32E017CF1C4E6052005EE4DE /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B331C46911800A89610 /* IOKit.framework */; };
+		32E017D01C4E6052005EE4DE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B311C46910E00A89610 /* Cocoa.framework */; };
+		32E017D11C4E6052005EE4DE /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B2F1C46910800A89610 /* OpenGL.framework */; };
+		32E017D21C4E6052005EE4DE /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B2D1C4690FE00A89610 /* GLUT.framework */; };
+		32E017D31C4E6052005EE4DE /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B2B1C4690CC00A89610 /* CoreFoundation.framework */; };
+		32E017D41C4E6052005EE4DE /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B291C4690BD00A89610 /* libGLEW.a */; };
+		32E017D51C4E6052005EE4DE /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B271C4690B600A89610 /* libglfw3.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		328AF1E71C4CEE5D004F5659 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		32E017C41C4E5F18005EE4DE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -34,6 +53,8 @@
 /* Begin PBXFileReference section */
 		328AF1E91C4CEE5D004F5659 /* 01-triangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "01-triangle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		328AF1EB1C4CEE5D004F5659 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		32E017C61C4E5F18005EE4DE /* 02-color-triangle */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "02-color-triangle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E017C81C4E5F19005EE4DE /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		32E07B271C4690B600A89610 /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = ../../../../usr/local/lib/libglfw3.a; sourceTree = "<group>"; };
 		32E07B291C4690BD00A89610 /* libGLEW.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGLEW.a; path = ../../../../usr/local/lib/libGLEW.a; sourceTree = "<group>"; };
 		32E07B2B1C4690CC00A89610 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
@@ -62,6 +83,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		32E017C31C4E5F18005EE4DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E017CD1C4E6052005EE4DE /* Carbon.framework in Frameworks */,
+				32E017CE1C4E6052005EE4DE /* CoreVideo.framework in Frameworks */,
+				32E017CF1C4E6052005EE4DE /* IOKit.framework in Frameworks */,
+				32E017D01C4E6052005EE4DE /* Cocoa.framework in Frameworks */,
+				32E017D11C4E6052005EE4DE /* OpenGL.framework in Frameworks */,
+				32E017D21C4E6052005EE4DE /* GLUT.framework in Frameworks */,
+				32E017D31C4E6052005EE4DE /* CoreFoundation.framework in Frameworks */,
+				32E017D41C4E6052005EE4DE /* libGLEW.a in Frameworks */,
+				32E017D51C4E6052005EE4DE /* libglfw3.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -86,6 +123,7 @@
 				32E07B291C4690BD00A89610 /* libGLEW.a */,
 				32E07B271C4690B600A89610 /* libglfw3.a */,
 				328AF1EA1C4CEE5D004F5659 /* 01-triangle */,
+				32E017C71C4E5F19005EE4DE /* 02-color-triangle */,
 				32BC75C41C468E500031EF30 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,8 +132,17 @@
 			isa = PBXGroup;
 			children = (
 				328AF1E91C4CEE5D004F5659 /* 01-triangle */,
+				32E017C61C4E5F18005EE4DE /* 02-color-triangle */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		32E017C71C4E5F19005EE4DE /* 02-color-triangle */ = {
+			isa = PBXGroup;
+			children = (
+				32E017C81C4E5F19005EE4DE /* main.cpp */,
+			);
+			path = "02-color-triangle";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +165,23 @@
 			productReference = 328AF1E91C4CEE5D004F5659 /* 01-triangle */;
 			productType = "com.apple.product-type.tool";
 		};
+		32E017C51C4E5F18005EE4DE /* 02-color-triangle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32E017CA1C4E5F19005EE4DE /* Build configuration list for PBXNativeTarget "02-color-triangle" */;
+			buildPhases = (
+				32E017C21C4E5F18005EE4DE /* Sources */,
+				32E017C31C4E5F18005EE4DE /* Frameworks */,
+				32E017C41C4E5F18005EE4DE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-color-triangle";
+			productName = "02-color-triangle";
+			productReference = 32E017C61C4E5F18005EE4DE /* 02-color-triangle */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -128,6 +192,9 @@
 				ORGANIZATIONNAME = xujh;
 				TargetAttributes = {
 					328AF1E81C4CEE5D004F5659 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					32E017C51C4E5F18005EE4DE = {
 						CreatedOnToolsVersion = 7.0;
 					};
 				};
@@ -145,6 +212,7 @@
 			projectRoot = "";
 			targets = (
 				328AF1E81C4CEE5D004F5659 /* 01-triangle */,
+				32E017C51C4E5F18005EE4DE /* 02-color-triangle */,
 			);
 		};
 /* End PBXProject section */
@@ -155,6 +223,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				328AF1EC1C4CEE5D004F5659 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E017C21C4E5F18005EE4DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E017C91C4E5F19005EE4DE /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +342,20 @@
 			};
 			name = Release;
 		};
+		32E017CB1C4E5F19005EE4DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32E017CC1C4E5F19005EE4DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -286,6 +376,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		32E017CA1C4E5F19005EE4DE /* Build configuration list for PBXNativeTarget "02-color-triangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E017CB1C4E5F19005EE4DE /* Debug */,
+				32E017CC1C4E5F19005EE4DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
