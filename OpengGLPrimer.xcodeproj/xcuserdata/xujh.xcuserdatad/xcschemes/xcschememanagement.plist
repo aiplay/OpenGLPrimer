@@ -14,6 +14,16 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>03-fbo-demo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>03-texture.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -28,6 +38,16 @@
 			<true/>
 		</dict>
 		<key>32E017C51C4E5F18005EE4DE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>32FFDB901C8E7A020073BC9F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>32FFDBA61C8E83F20073BC9F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
