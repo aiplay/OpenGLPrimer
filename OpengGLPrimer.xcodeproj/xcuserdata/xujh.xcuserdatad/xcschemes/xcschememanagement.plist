@@ -24,6 +24,11 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>04-fbo.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -33,6 +38,11 @@
 			<true/>
 		</dict>
 		<key>32BC75C21C468E500031EF30</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>32E006141C9262D500B391B3</key>
 		<dict>
 			<key>primary</key>
 			<true/>
