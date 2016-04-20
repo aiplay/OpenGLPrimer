@@ -4,30 +4,29 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>01-triangle.xcscheme_^#shared#^_</key>
+		<key>01-triangle.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
 		<key>02-color-triangle.xcscheme</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>1</integer>
-		</dict>
-		<key>03-fbo-demo.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 		<key>03-texture.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>2</integer>
 		</dict>
 		<key>04-fbo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>3</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -38,6 +37,26 @@
 			<true/>
 		</dict>
 		<key>32BC75C21C468E500031EF30</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>32CD5D581CC76D3D0064618C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>32CD5D6B1CC772310064618C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>32CD5D7F1CC773510064618C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>32CD5D931CC7744E0064618C</key>
 		<dict>
 			<key>primary</key>
 			<true/>
