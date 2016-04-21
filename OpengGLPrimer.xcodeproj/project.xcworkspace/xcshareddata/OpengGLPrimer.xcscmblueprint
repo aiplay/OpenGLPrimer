@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C4086A729176CA1ACCFCDB9C4EC9C1869B2075D4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C4086A729176CA1ACCFCDB9C4EC9C1869B2075D4" : 0,
+    "98B06E01D4343D431B2B0E55C6ECD31FBB22B99D" : 0,
+    "F91D28A7E95E8F0399C74826E40B332B63E48E1C" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "331257EE-AC28-4B92-AE93-84576179F864",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C4086A729176CA1ACCFCDB9C4EC9C1869B2075D4" : "OpenGLPrimer\/",
+    "98B06E01D4343D431B2B0E55C6ECD31FBB22B99D" : "gl\/glew\/",
+    "F91D28A7E95E8F0399C74826E40B332B63E48E1C" : "gl\/glfw\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "OpengGLPrimer",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "OpengGLPrimer.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/nigels-com\/glew.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "98B06E01D4343D431B2B0E55C6ECD31FBB22B99D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "aiplay:aiplay\/OpenGLPrimer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C4086A729176CA1ACCFCDB9C4EC9C1869B2075D4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/glfw\/glfw.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F91D28A7E95E8F0399C74826E40B332B63E48E1C"
+    }
+  ]
+}

@@ -28,10 +28,20 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>05-coordinate-system.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>328AF1E81C4CEE5D004F5659</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>32B02F3E1CC79D440049E378</key>
 		<dict>
 			<key>primary</key>
 			<true/>

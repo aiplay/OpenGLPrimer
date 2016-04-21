@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32B02F421CC79D440049E378 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CD5D4F1CC76C8B0064618C /* libGLEW.a */; };
+		32B02F431CC79D440049E378 /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CD5D501CC76C8B0064618C /* libglfw3.a */; };
+		32B02F441CC79D440049E378 /* libSOIL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CD5D511CC76C8B0064618C /* libSOIL.a */; };
+		32B02F451CC79D440049E378 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B311C46910E00A89610 /* Cocoa.framework */; };
+		32B02F461CC79D440049E378 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B371C46929000A89610 /* Carbon.framework */; };
+		32B02F471CC79D440049E378 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B351C46912100A89610 /* CoreVideo.framework */; };
+		32B02F481CC79D440049E378 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B2F1C46910800A89610 /* OpenGL.framework */; };
+		32B02F491CC79D440049E378 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B2D1C4690FE00A89610 /* GLUT.framework */; };
+		32B02F4A1CC79D440049E378 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B2B1C4690CC00A89610 /* CoreFoundation.framework */; };
+		32B02F4B1CC79D440049E378 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B331C46911800A89610 /* IOKit.framework */; };
+		32B02F571CC79DFB0049E378 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B02F561CC79DFB0049E378 /* main.cpp */; settings = {ASSET_TAGS = (); }; };
+		32B02F591CC79E760049E378 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B02F561CC79DFB0049E378 /* main.cpp */; };
 		32CD5D601CC76D9B0064618C /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CD5D4F1CC76C8B0064618C /* libGLEW.a */; };
 		32CD5D611CC76D9D0064618C /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CD5D501CC76C8B0064618C /* libglfw3.a */; };
 		32CD5D621CC76D9F0064618C /* libSOIL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CD5D511CC76C8B0064618C /* libSOIL.a */; };
@@ -54,6 +66,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		32B02F4C1CC79D440049E378 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		32CD5D571CC76D3D0064618C /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -93,6 +114,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		329E48771CC8AF18003F5F78 /* v.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = v.jpg; path = res/v.jpg; sourceTree = "<group>"; };
+		329E48781CC8AF18003F5F78 /* wall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wall.jpg; path = res/wall.jpg; sourceTree = "<group>"; };
+		32B02F501CC79D440049E378 /* 05-coordinate-system */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "05-coordinate-system"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32B02F561CC79DFB0049E378 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "05-coordinate-system/main.cpp"; sourceTree = "<group>"; };
+		32B02F581CC79E370049E378 /* Shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Shader.h; path = "05-coordinate-system/Shader.h"; sourceTree = "<group>"; };
+		32B02F5A1CC7A14B0049E378 /* shader.vs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = shader.vs; path = "05-coordinate-system/shader.vs"; sourceTree = "<group>"; };
+		32B02F5B1CC7A14B0049E378 /* shader.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = shader.frag; path = "05-coordinate-system/shader.frag"; sourceTree = "<group>"; };
 		32CD5D4F1CC76C8B0064618C /* libGLEW.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGLEW.a; path = "third-libs/libGLEW.a"; sourceTree = "<group>"; };
 		32CD5D501CC76C8B0064618C /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = "third-libs/libglfw3.a"; sourceTree = "<group>"; };
 		32CD5D511CC76C8B0064618C /* libSOIL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSOIL.a; path = "third-libs/libSOIL.a"; sourceTree = "<group>"; };
@@ -119,6 +147,23 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		32B02F411CC79D440049E378 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B02F421CC79D440049E378 /* libGLEW.a in Frameworks */,
+				32B02F431CC79D440049E378 /* libglfw3.a in Frameworks */,
+				32B02F441CC79D440049E378 /* libSOIL.a in Frameworks */,
+				32B02F451CC79D440049E378 /* Cocoa.framework in Frameworks */,
+				32B02F461CC79D440049E378 /* Carbon.framework in Frameworks */,
+				32B02F471CC79D440049E378 /* CoreVideo.framework in Frameworks */,
+				32B02F481CC79D440049E378 /* OpenGL.framework in Frameworks */,
+				32B02F491CC79D440049E378 /* GLUT.framework in Frameworks */,
+				32B02F4A1CC79D440049E378 /* CoreFoundation.framework in Frameworks */,
+				32B02F4B1CC79D440049E378 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		32CD5D561CC76D3D0064618C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -190,9 +235,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		329E48761CC8AF08003F5F78 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				329E48771CC8AF18003F5F78 /* v.jpg */,
+				329E48781CC8AF18003F5F78 /* wall.jpg */,
+			);
+			name = res;
+			sourceTree = "<group>";
+		};
+		32B02F551CC79DE00049E378 /* 05-coordinate-system */ = {
+			isa = PBXGroup;
+			children = (
+				32B02F5A1CC7A14B0049E378 /* shader.vs */,
+				32B02F5B1CC7A14B0049E378 /* shader.frag */,
+				32B02F581CC79E370049E378 /* Shader.h */,
+				32B02F561CC79DFB0049E378 /* main.cpp */,
+			);
+			name = "05-coordinate-system";
+			sourceTree = "<group>";
+		};
 		32BC75BA1C468E500031EF30 = {
 			isa = PBXGroup;
 			children = (
+				329E48761CC8AF08003F5F78 /* res */,
 				32CD5D4F1CC76C8B0064618C /* libGLEW.a */,
 				32CD5D501CC76C8B0064618C /* libglfw3.a */,
 				32CD5D511CC76C8B0064618C /* libSOIL.a */,
@@ -207,6 +273,7 @@
 				32E017C71C4E5F19005EE4DE /* 02-color-triangle */,
 				32FFDBA81C8E83F20073BC9F /* 03-texture */,
 				32E006161C9262D500B391B3 /* 04-fbo */,
+				32B02F551CC79DE00049E378 /* 05-coordinate-system */,
 				32BC75C41C468E500031EF30 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -218,6 +285,7 @@
 				32CD5D7D1CC772310064618C /* 02-color-triangle */,
 				32CD5D911CC773510064618C /* 03-texture */,
 				32CD5DA51CC7744E0064618C /* 04-fbo */,
+				32B02F501CC79D440049E378 /* 05-coordinate-system */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -262,6 +330,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		32B02F3E1CC79D440049E378 /* 05-coordinate-system */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32B02F4D1CC79D440049E378 /* Build configuration list for PBXNativeTarget "05-coordinate-system" */;
+			buildPhases = (
+				32B02F3F1CC79D440049E378 /* Sources */,
+				32B02F411CC79D440049E378 /* Frameworks */,
+				32B02F4C1CC79D440049E378 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "05-coordinate-system";
+			productName = "01-triangle";
+			productReference = 32B02F501CC79D440049E378 /* 05-coordinate-system */;
+			productType = "com.apple.product-type.tool";
+		};
 		32CD5D581CC76D3D0064618C /* 01-triangle */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32CD5D5D1CC76D3D0064618C /* Build configuration list for PBXNativeTarget "01-triangle" */;
@@ -360,15 +445,25 @@
 				32CD5D6B1CC772310064618C /* 02-color-triangle */,
 				32CD5D7F1CC773510064618C /* 03-texture */,
 				32CD5D931CC7744E0064618C /* 04-fbo */,
+				32B02F3E1CC79D440049E378 /* 05-coordinate-system */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		32B02F3F1CC79D440049E378 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B02F591CC79E760049E378 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		32CD5D551CC76D3D0064618C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32B02F571CC79DFB0049E378 /* main.cpp in Sources */,
 				32CD5D6A1CC770580064618C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,6 +495,28 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		32B02F4E1CC79D440049E378 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/third-libs",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32B02F4F1CC79D440049E378 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/third-libs",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		32BC75C81C468E500031EF30 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -584,6 +701,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		32B02F4D1CC79D440049E378 /* Build configuration list for PBXNativeTarget "05-coordinate-system" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32B02F4E1CC79D440049E378 /* Debug */,
+				32B02F4F1CC79D440049E378 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		32BC75BE1C468E500031EF30 /* Build configuration list for PBXProject "OpengGLPrimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -600,6 +726,7 @@
 				32CD5D5F1CC76D3D0064618C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32CD5D7A1CC772310064618C /* Build configuration list for PBXNativeTarget "02-color-triangle" */ = {
 			isa = XCConfigurationList;
