@@ -4,6 +4,9 @@
 #include <glfw3.h>
 #include <SOIL.h>
 #include "Shader.h"
+#include "config.h"
+
+using namespace std;
 
 // 事件触发回调函数
 void key_callback(GLFWwindow* window, int key, int scancode, int action, int mode);
@@ -39,7 +42,9 @@ int main()
 {
     GLFWwindow* window = init();
     
-    Shader ourShader("/Users/xujh/open/OpenGLPrimer/03-texture/textures.vs", "/Users/xujh/open/OpenGLPrimer/03-texture/textures.frag");
+    string vsPath = PROJ_PATH + string("03-texture/textures.vs");
+    string fragPath = PROJ_PATH + string("03-texture/textures.frag");
+    Shader ourShader(vsPath.c_str(), fragPath.c_str());
     
     GLfloat vertices[] = {
         // Positions          // Colors           // Texture Coords
@@ -92,7 +97,8 @@ int main()
     
     int width, height;
     // 使用SOIL库来加载图片生成数据
-    unsigned char* image = SOIL_load_image("/Users/xujh/open/OpenGLPrimer/03-texture/wall.jpg", &width, &height, 0, SOIL_LOAD_RGB);
+    string wallImgPath = PROJ_PATH + string("res/wall.jpg");
+    unsigned char* image = SOIL_load_image(wallImgPath.c_str(), &width, &height, 0, SOIL_LOAD_RGB);
     // 载入图片数据到纹理中
     glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, image);
     glGenerateMipmap(GL_TEXTURE_2D);
@@ -106,7 +112,8 @@ int main()
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-    image = SOIL_load_image("/Users/xujh/open/OpenGLPrimer/03-texture/v.jpg", &width, &height, 0, SOIL_LOAD_RGB);
+    string iconImgPath = PROJ_PATH + string("res/v.jpg");
+    image = SOIL_load_image(iconImgPath.c_str(), &width, &height, 0, SOIL_LOAD_RGB);
     glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, image);
     glGenerateMipmap(GL_TEXTURE_2D);
     SOIL_free_image_data(image);

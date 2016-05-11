@@ -17,7 +17,6 @@
 		32B02F491CC79D440049E378 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B2D1C4690FE00A89610 /* GLUT.framework */; };
 		32B02F4A1CC79D440049E378 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B2B1C4690CC00A89610 /* CoreFoundation.framework */; };
 		32B02F4B1CC79D440049E378 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E07B331C46911800A89610 /* IOKit.framework */; };
-		32B02F571CC79DFB0049E378 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B02F561CC79DFB0049E378 /* main.cpp */; settings = {ASSET_TAGS = (); }; };
 		32B02F591CC79E760049E378 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32B02F561CC79DFB0049E378 /* main.cpp */; };
 		32CD5D601CC76D9B0064618C /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CD5D4F1CC76C8B0064618C /* libGLEW.a */; };
 		32CD5D611CC76D9D0064618C /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32CD5D501CC76C8B0064618C /* libglfw3.a */; };
@@ -114,6 +113,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3227F56A1CE323C3009EA09B /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		329E48771CC8AF18003F5F78 /* v.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = v.jpg; path = res/v.jpg; sourceTree = "<group>"; };
 		329E48781CC8AF18003F5F78 /* wall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wall.jpg; path = res/wall.jpg; sourceTree = "<group>"; };
 		32B02F501CC79D440049E378 /* 05-coordinate-system */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "05-coordinate-system"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -258,6 +258,7 @@
 		32BC75BA1C468E500031EF30 = {
 			isa = PBXGroup;
 			children = (
+				3227F56A1CE323C3009EA09B /* config.h */,
 				329E48761CC8AF08003F5F78 /* res */,
 				32CD5D4F1CC76C8B0064618C /* libGLEW.a */,
 				32CD5D501CC76C8B0064618C /* libglfw3.a */,
@@ -463,7 +464,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32B02F571CC79DFB0049E378 /* main.cpp in Sources */,
 				32CD5D6A1CC770580064618C /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

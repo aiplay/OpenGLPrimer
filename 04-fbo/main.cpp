@@ -7,6 +7,7 @@
 #include <SOIL.h>
 #include <iostream>
 #include <chrono>
+#include "config.h"
 
 // 事件触发回调函数
 void key_callback(GLFWwindow* window, int key, int scancode, int action, int mode);
@@ -258,8 +259,10 @@ int main()
     specifyScreenVertexAttributes(screenShaderProgram);
     
     // Load textures
-    GLuint texKitten = loadTexture("/Users/xujh/open/OpenGLPrimer/res/wall.jpg");
-    GLuint texPuppy = loadTexture("/Users/xujh/open/OpenGLPrimer/res/v.jpg");
+    std::string wallImgPath = PROJ_PATH + std::string("res/wall.jpg");
+    GLuint texKitten = loadTexture(wallImgPath.c_str());
+    std::string iconImgPath = PROJ_PATH + std::string("res/v.jpg");
+    GLuint texPuppy = loadTexture(iconImgPath.c_str());
     
     glUseProgram(sceneShaderProgram);
     glUniform1i(glGetUniformLocation(sceneShaderProgram, "texKitten"), 0);

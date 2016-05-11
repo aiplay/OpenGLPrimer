@@ -8,6 +8,9 @@
 #include <glm/gtc/type_ptr.hpp>
 #include "CoreFoundation/CoreFoundation.h"
 #include "Shader.h"
+#include "config.h"
+
+using namespace std;
 
 void key_callback(GLFWwindow* window, int key, int scancode, int action, int mode);
 
@@ -44,7 +47,9 @@ int main()
     glEnable(GL_DEPTH_TEST);
     
     // 构建编译shader程序
-    Shader ourShader("/Users/xujh/open/OpenGLPrimer/05-coordinate-system/shader.vs", "/Users/xujh/open/OpenGLPrimer/05-coordinate-system/shader.frag");
+    string vsPath = PROJ_PATH + string("05-coordinate-system/shader.vs");
+    string fragPath = PROJ_PATH + string("05-coordinate-system/shader.frag");
+    Shader ourShader(vsPath.c_str(), fragPath.c_str());
     
     // 构建定点数据及属性
     GLfloat vertices[] = {
@@ -122,7 +127,8 @@ int main()
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
     // 使用SOIL库装载图片生成纹理数据
     int width, height;
-    unsigned char* image = SOIL_load_image("/Users/xujh/open/OpenGLPrimer/res/wall.jpg", &width, &height, 0, SOIL_LOAD_RGB);
+    string wallImgPath = PROJ_PATH + string("res/wall.jpg");
+    unsigned char* image = SOIL_load_image(wallImgPath.c_str(), &width, &height, 0, SOIL_LOAD_RGB);
     glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, image);
     glGenerateMipmap(GL_TEXTURE_2D);
     SOIL_free_image_data(image);
@@ -137,7 +143,8 @@ int main()
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
     // 使用SOIL库装载图片生成纹理数据
-    image = SOIL_load_image("/Users/xujh/open/OpenGLPrimer/res/v.jpg", &width, &height, 0, SOIL_LOAD_RGB);
+    string iconImgPath = PROJ_PATH + string("res/v.jpg");
+    image = SOIL_load_image(iconImgPath.c_str(), &width, &height, 0, SOIL_LOAD_RGB);
     glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, image);
     glGenerateMipmap(GL_TEXTURE_2D);
     SOIL_free_image_data(image);
