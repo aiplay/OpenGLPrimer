@@ -613,6 +613,13 @@
 		32CD5D5E1CC76D3D0064618C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"third-libs/include/assimp",
+					"third-libs/include/GLFW",
+					"third-libs/include/glm",
+					"third-libs/include/GL",
+					"third-libs/include",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/third-libs",
@@ -624,6 +631,13 @@
 		32CD5D5F1CC76D3D0064618C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"third-libs/include/assimp",
+					"third-libs/include/GLFW",
+					"third-libs/include/glm",
+					"third-libs/include/GL",
+					"third-libs/include",
+				);
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/third-libs",
