@@ -554,12 +554,15 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"/third-libs/include/GL/**",
-					"/third-libs/include/GLFW/**",
-					"/third-libs/include/glm/**",
-					"/third-libs/include",
+					"$(PROJECT_DIR)/third-libs/include/GL/**",
+					"$(PROJECT_DIR)/third-libs/include/GLFW/**",
+					"$(PROJECT_DIR)/third-libs/include/glm/**",
+					"$(PROJECT_DIR)/third-libs/include",
 				);
-				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/third-libs",
+					/usr/local/lib,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -598,12 +601,15 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = (
-					"/third-libs/include/GL/**",
-					"/third-libs/include/GLFW/**",
-					"/third-libs/include/glm/**",
-					"/third-libs/include",
+					"$(PROJECT_DIR)/third-libs/include/GL/**",
+					"$(PROJECT_DIR)/third-libs/include/GLFW/**",
+					"$(PROJECT_DIR)/third-libs/include/glm/**",
+					"$(PROJECT_DIR)/third-libs/include",
 				);
-				LIBRARY_SEARCH_PATHS = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/third-libs",
+					/usr/local/lib,
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
